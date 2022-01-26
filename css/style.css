@@ -237,31 +237,18 @@ img {
   display: flex;
 }
 
-li.item-icon::before {
-  content: "";
-  display: block;
+.advantages-section-link {
+  display: flex;
   width: 100%;
   height: 120px;
   margin-bottom: 30px;
-  background-position: center;
-  background-repeat: no-repeat;
   background-color: var(--portfolio-background-color);
 }
 
-.icon-antenna::before {
-  background-image: url(../imeges/antenna\ 1.svg);
-}
-
-.icon-clock::before {
-  background-image: url(../imeges/clock\ 1.svg);
-}
-
-.icon-diagram::before {
-  background-image: url(../imeges/diagram\ 1.svg);
-}
-
-.icon-astronaut::before {
-  background-image: url(../imeges/astronaut\ 1.svg);
+.advantages-section-icon {
+  width: 70px;
+  height: 70px;
+  margin: auto;
 }
 
 .advantages-list-title {
