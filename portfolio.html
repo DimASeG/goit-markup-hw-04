@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<!----------------------Header with navigation end contacts-->
+<!-- Header with navigation end contacts-->
     <header class="page-header">
         <div class="container container-nav">
             <nav class="main-nav">
@@ -24,18 +24,34 @@
                     <li class="item"><a href="" class="site-nav-link">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="contact-list">
-                <li class="item"><a href="mailto:info@devstudio.com" class="conection">info@devstudio.com</a></li>
-                <li class="item"><a href="tel:+380961111111" class="conection">+38 096 111 11 11</a></li>
+            <ul class="header-contact-list">
+                <li class="item conection-email">
+                    <a href="mailto:info@devstudio.com" class="conection header-contact-link"> 
+                        <svg class="header-contact-list-icon" width="20" height="20">
+                            <use href="./imeges/icons.svg#icon-envelope_email">
+                            </use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="item conection-telephone">
+                    <a href="tel:+380961111111" class="conection header-contact-link">
+                        <svg class="header-contact-list-icon" width="20" height="20">
+                            <use href="./imeges/icons.svg#icon-smartphone">
+                            </use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
-<!---------------------- Main portfolio --------------------->
+<!--======================== Main portfolio =============-->
     <main>
         <section class="section">
             <div class="container">
                 <h1 class="visually-hidden">Текст заголовка для читалок, секция H1</h1>
-<!--------------------- button-filter portfolio -------------->
+<!--============= button-filter portfolio=============-->
                 <ul class="filter-list filter">
                     <li class="item"><button type="button" class="filter-button">Все</button></li>
                     <li class="item"><button type="button" class="filter-button">Веб-сайты</button></li>
@@ -43,7 +59,7 @@
                     <li class="item"><button type="button" class="filter-button">Дизайн</button></li>
                     <li class="item"><button type="button" class="filter-button">Маркетинг</button></li>
                 </ul>
-<!--------------------- windows portfolio ------------------>
+<!--============= windows portfolio =============-->
                 <ul class="windows-portfolio-section">
                     <li class="windows-portfolio-list item">
                         <a href="/" class="windows-portfolio-link link">
@@ -139,17 +155,46 @@
             </div>
         </section>
     </main>
-<!--------------------------Footer with contacts-------------->
+<!--=============Footer with contacts=============-->
     <footer class="footer">
         <div class="container footer-container">
             <a href="/" class="logo">Web<span class="logo-continuation-footer">Studio</span></a>
             <address class="address">
                 <ul class="footer-contacts">
-                    <li><a href="https://goo.gl/maps/VVo3LGMkaZH9GC4X9" class="conection" > г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li><a href="https://goo.gl/maps/VVo3LGMkaZH9GC4X9" class="conection footer-contact-map" > г. Киев, пр-т Леси Украинки, 26</a></li>
                     <li><a href="mailto:info@devstudio.com" class="conection">info@devstudio.com</a></li>
                     <li><a href="tel:+380961111111" class="conection">+38 096 111 11 11</a></li>
                 </ul>
             </address>
+        </div>
+        <div class="container footer-container">
+            <h3>ПРИСОЕДИНЯЙТЕСЬ</h3>
+            <ul class="footer-section-list">
+                <li class="footer-section-item">
+                    <a href="" class="footer-section-link">
+                        <svg class="footer-social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-instagram-2"></use>
+                    </svg></a>
+                </li>
+                <li class="footer-section-item">
+                    <a href="" class="footer-section-link">
+                        <svg class="footer-social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-twitter-1"></use>
+                    </svg></a>
+                </li>
+                <li class="footer-section-item">
+                    <a href="" class="footer-section-link">
+                        <svg class="footer-social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-facebook-1"></use>
+                    </svg></a>
+                </li>
+                <li class="footer-section-item">
+                    <a href="" class="footer-section-link">
+                        <svg class="footer-social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-linkedin-1"></use>
+                    </svg></a>
+                </li>
+            </ul>
         </div>
     </footer>
 </body>

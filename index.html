@@ -24,37 +24,53 @@
                     <li class="item"><a href="" class="site-nav-link">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="contact-list">
-                <li class="item"><a href="mailto:info@devstudio.com" class="conection">info@devstudio.com</a></li>
-                <li class="item"><a href="tel:+380961111111" class="conection">+38 096 111 11 11</a></li>
+            <ul class="header-contact-list">
+                <li class="item conection-email">
+                    <a href="mailto:info@devstudio.com" class="conection header-contact-link"> 
+                        <svg class="header-contact-list-icon" width="20" height="20">
+                            <use href="./imeges/icons.svg#icon-envelope_email">
+                            </use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="item conection-telephone">
+                    <a href="tel:+380961111111" class="conection header-contact-link">
+                        <svg class="header-contact-list-icon" width="20" height="20">
+                            <use href="./imeges/icons.svg#icon-smartphone">
+                            </use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
 <!--------------------------MAIN main------------------------->
     <main>
 <!--------------------------Hero sector----------------------->    
-            <section class="hero">
-                <h1 class="hero-title">Эффективные решения<br> для вашего бизнеса</h1>
-                <button type="button" class="hero-button">Заказать услугу</button>
-            </section>
+        <section class="hero">
+            <h1 class="hero-title">Эффективные решения<br> для вашего бизнеса</h1>
+            <button type="button" class="hero-button">Заказать услугу</button>
+        </section>
 <!--------------------------Our advantages section------------>
         <section class="section">
             <div class="container">
                 <h2 class="visually-hidden">Текст заголовка для читалок, секция H2</h2>
                 <ul class="advantages-section-list">
-                    <li class="item">
+                    <li class="item item-icon icon-antenna">
                         <h3 class="advantages-list-title title">Внимание к деталям</h3>
                         <p class="advantages-list-text text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li class="item">
+                    <li class="item item-icon icon-clock">
                         <h3 class="advantages-list-title title">Пунктуальность</h3>
                         <p class="advantages-list-text text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li class="item">
+                    <li class="item item-icon icon-diagram">
                         <h3 class="advantages-list-title title">Планирование</h3>
                         <p class="advantages-list-text text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>    
-                    <li class="item">
+                    <li class="item item-icon icon-astronaut">
                         <h3 class="advantages-list-title title">Современные технологии</h3>
                         <p class="advantages-list-text text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
@@ -82,13 +98,39 @@
         <section class="section team-section ">
             <div class="container">
                 <h2 class="section-title">Наша команда</h2>
-<!--------------------------Product Designer section---------->
                 <ul class=" team-section-list">
+<!--------------------------Product Designer section---------->
                     <li class="team-list-item">
                         <img class="team-section-foto" src="./imeges/productdesigner.jpg" alt="Главный дизайнер Игорь" width="270">               
                         <div class="team-presection">                           
                             <h3 class="team-section-title title">Игорь Демьяненко</h3>
                             <p class="team-section-text text">Product Designer</p>
+                            <ul class="team-section-list">
+                                <li class="team-section-item">
+                                    <a href="" class="team-section-link">
+                                        <svg class="team-social-icon" width="20" height="20">
+                                        <use href="./imeges/icons.svg#icon-instagram-2"></use>
+                                    </svg></a>
+                                </li>
+                                <li class="team-section-item">
+                                    <a href="" class="team-section-link">
+                                        <svg class="team-social-icon" width="20" height="20">
+                                        <use href="./imeges/icons.svg#icon-twitter-1"></use>
+                                    </svg></a>
+                                </li>
+                                <li class="team-section-item">
+                                    <a href="" class="team-section-link">
+                                        <svg class="team-social-icon" width="20" height="20">
+                                        <use href="./imeges/icons.svg#icon-facebook-1"></use>
+                                    </svg></a>
+                                </li>
+                                <li class="team-section-item">
+                                    <a href="" class="team-section-link">
+                                        <svg class="team-social-icon" width="20" height="20">
+                                        <use href="./imeges/icons.svg#icon-linkedin-1"></use>
+                                    </svg></a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
 <!-------------------------Frontend Developer section--------->
@@ -97,6 +139,32 @@
                         <div class="team-presection"> 
                             <h3 class="team-section-title title">Ольга Репина</h3>
                             <p class="team-section-text text">Frontend Developer</p>
+                            <ul class="team-section-list">
+                                <li class="team-section-item">
+                                    <a href="" class="team-section-link">
+                                        <svg class="team-social-icon" width="20" height="20">
+                                        <use href="./imeges/icons.svg#icon-instagram-2"></use>
+                                    </svg></a>
+                                </li>
+                                <li class="team-section-item">
+                                    <a href="" class="team-section-link">
+                                        <svg class="team-social-icon" width="20" height="20">
+                                        <use href="./imeges/icons.svg#icon-twitter-1"></use>
+                                    </svg></a>
+                                </li>
+                                <li class="team-section-item">
+                                    <a href="" class="team-section-link">
+                                        <svg class="team-social-icon" width="20" height="20">
+                                        <use href="./imeges/icons.svg#icon-facebook-1"></use>
+                                    </svg></a>
+                                </li>
+                                <li class="team-section-item">
+                                    <a href="" class="team-section-link">
+                                        <svg class="team-social-icon" width="20" height="20">
+                                        <use href="./imeges/icons.svg#icon-linkedin-1"></use>
+                                    </svg></a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
 <!--------------------------Marketing section------------------>
@@ -105,6 +173,32 @@
                         <div class="team-presection"> 
                             <h3 class="team-section-title title">Николай Тарасов</h3>
                             <p class="team-section-text text">Marketing</p>
+                            <ul class="team-section-list">
+                                <li class="team-section-item">
+                                    <a href="" class="team-section-link">
+                                        <svg class="team-social-icon" width="20" height="20">
+                                        <use href="./imeges/icons.svg#icon-instagram-2"></use>
+                                    </svg></a>
+                                </li>
+                                <li class="team-section-item">
+                                    <a href="" class="team-section-link">
+                                        <svg class="team-social-icon" width="20" height="20">
+                                        <use href="./imeges/icons.svg#icon-twitter-1"></use>
+                                    </svg></a>
+                                </li>
+                                <li class="team-section-item">
+                                    <a href="" class="team-section-link">
+                                        <svg class="team-social-icon" width="20" height="20">
+                                        <use href="./imeges/icons.svg#icon-facebook-1"></use>
+                                    </svg></a>
+                                </li>
+                                <li class="team-section-item">
+                                    <a href="" class="team-section-link">
+                                        <svg class="team-social-icon" width="20" height="20">
+                                        <use href="./imeges/icons.svg#icon-linkedin-1"></use>
+                                    </svg></a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
 <!------------------------UI Designer section------------------>
@@ -113,10 +207,82 @@
                         <div class="team-presection"> 
                             <h3 class="team-section-title title">Михаил Ермаков</h3>
                             <p class="team-section-text text">UI Designer</p>
+                        <ul class="team-section-list">
+                            <li class="team-section-item">
+                                <a href="" class="team-section-link">
+                                    <svg class="team-social-icon" width="20" height="20">
+                                    <use href="./imeges/icons.svg#icon-instagram-2"></use>
+                                </svg></a>
+                            </li>
+                            <li class="team-section-item">
+                                <a href="" class="team-section-link">
+                                    <svg class="team-social-icon" width="20" height="20">
+                                    <use href="./imeges/icons.svg#icon-twitter-1"></use>
+                                </svg></a>
+                            </li>
+                            <li class="team-section-item">
+                                <a href="" class="team-section-link">
+                                    <svg class="team-social-icon" width="20" height="20">
+                                    <use href="./imeges/icons.svg#icon-facebook-1"></use>
+                                </svg></a>
+                            </li>
+                            <li class="team-section-item">
+                                <a href="" class="team-section-link">
+                                    <svg class="team-social-icon" width="20" height="20">
+                                    <use href="./imeges/icons.svg#icon-linkedin-1"></use>
+                                </svg></a>
+                            </li>
+                        </ul>
                         </div>
                     </li>
                 </ul>
             </div>
+        </section>
+<!--------------------------Our client sector------------------>
+        <section class="section client-section">
+            <div class="container">
+                <h2 class="section-title">Постоянные клиенты</h2>
+                <ul class="client-section-list">
+                    <li class="item client-section-item">
+                        <a href="" class="client-section-link icon-logo">
+                            <svg class="client-section-icon"> 
+                                <use href="./imeges/icons.svg#icon-Logo1"></use> 
+                            </svg></a>
+                    </li>
+                    <li class="item client-section-item">
+                        <a href="" class="client-section-link">
+                            <svg class="client-section-icon"> 
+                                <use href="./imeges/icons.svg#icon-Logo2"></use> 
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="item client-section-item">
+                        <a href="" class="client-section-link">
+                            <svg class="client-section-icon"> 
+                                <use href="./imeges/icons.svg#icon-Logo3"></use> 
+                            </svg></a>
+                    </li>
+                    <li class="item client-section-item">
+                        <a href="" class="client-section-link">
+                            <svg class="client-section-icon"> 
+                                <use href="./imeges/icons.svg#icon-Logo4"></use> 
+                            </svg></a>
+                    </li>
+                    <li class="item client-section-item">
+                        <a href="" class="client-section-link">
+                            <svg class="client-section-icon"> 
+                                <use href="./imeges/icons.svg#icon-Logo5"></use> 
+                            </svg></a>
+                    </li>
+                    <li class="item client-section-item">
+                        <a href="" class="client-section-link">
+                            <svg class="client-section-icon"> 
+                                <use href="./imeges/icons.svg#icon-Logo6"></use> 
+                            </svg></a>
+                    </li>
+                </ul>   
+            </div>
+
         </section>
     </main>
 <!-----------------------Footer with contacts------------------>
@@ -130,6 +296,35 @@
                     <li><a href="tel:+380961111111" class="conection">+38 096 111 11 11</a></li>
                 </ul>
             </address>
+        </div>
+        <div class="container footer-container">
+            <h3>ПРИСОЕДИНЯЙТЕСЬ</h3>
+            <ul class="footer-section-list">
+                <li class="footer-section-item">
+                    <a href="" class="footer-section-link">
+                        <svg class="footer-social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-instagram-2"></use>
+                    </svg></a>
+                </li>
+                <li class="footer-section-item">
+                    <a href="" class="footer-section-link">
+                        <svg class="footer-social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-twitter-1"></use>
+                    </svg></a>
+                </li>
+                <li class="footer-section-item">
+                    <a href="" class="footer-section-link">
+                        <svg class="footer-social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-facebook-1"></use>
+                    </svg></a>
+                </li>
+                <li class="footer-section-item">
+                    <a href="" class="footer-section-link">
+                        <svg class="footer-social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-linkedin-1"></use>
+                    </svg></a>
+                </li>
+            </ul>
         </div>
     </footer>
 </body>
