@@ -418,14 +418,13 @@ border-radius: 4px;
   fill: var(--accent-icon-color);
 }
 
-.client-section-item:hover .client-section-icon,
-.client-section-link:focus .client-section-icon {
-  fill: var(--accent-link-color);
-}
-
-.client-section-item:hover,
+.client-section-link:hover .client-section-icon,
+.client-section-link:focus .client-section-icon,
+.client-section-link:hover,
 .client-section-link:focus {
-/* background-color: var(--accent-link-color); */
+  fill: var(--accent-link-color);
+  border-color: var(--accent-link-color);
+
 }
 
 /*----------------------PORTFOLIO PAGE---------------------- */
@@ -589,13 +588,13 @@ border-radius: 4px;
   justify-content: center;
 }
 
-.footer-section-item:hover,
+.footer-section-link:hover,
 .footer-section-link:focus {
 background-color: var(--accent-link-color);
 border-radius: 50%;
 }
 
-.footer-section-item:hover .footer-social-icon,
+.footer-section-link:hover .footer-social-icon,
 .footer-section-link:focus .footer-social-icon {
   fill: var(--alternative-text-decoration-color);
 }
