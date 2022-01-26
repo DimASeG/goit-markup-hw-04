@@ -153,19 +153,16 @@ img {
 }
 
 .header-contact-list-icon {
-  stroke: var(--accent-icon-color);
+  fill: currentColor;
   margin-right: 10px;
 }
 
 .header-contact-list .conection:hover,
 .header-contact-list .conection:focus,
 .site-nav-link.current,
-.header-contact-list-icon:hover,
-.header-contact-list-icon:focus,
 .site-nav-link:hover,
 .site-nav-link:focus {
   color: var(--accent-link-color);
-  fill: var(--accent-link-color);
 }
 
 .header-contact-list .conection {
